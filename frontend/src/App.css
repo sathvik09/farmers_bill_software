@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+nav{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 10vh;
+}
+.comp-1{
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+.nav-links{
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+.auth{
+  display: flex;
+  width: 20%;
+  margin-left: auto;
+  justify-content: space-around;
+}
+
+.signup{
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 10%;
+}
+.login{
+  padding: 10px;
+}
+
+/* Home Component */
+.body{
+  display: flex;
+  height: 90vh;
+  max-width: 50%;
+  margin: auto;
+  align-items: flex-end;
+}
+.body-main{
+  display: flex;
+}
+.content{
+  width: 30%;
+  margin: auto;
+  flex: 1;
+  height: 90vh;
+}
+.content-text{
+  padding: 10vh;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.content-text h1{
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.img{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 992px) {
+  *{
+    overflow: visible;
+  }
+  .body img{
+    width: 100%;
+  }
+  .img img{
+    padding: 0;
+    width: 80%;
+  }
+}
